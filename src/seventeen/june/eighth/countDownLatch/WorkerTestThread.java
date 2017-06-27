@@ -20,9 +20,9 @@ public class WorkerTestThread implements Runnable {
 
     @Override
     public void run() {
-        //工人工作
+        //宸ヤ汉宸ヤ綔
         worker.doWork();
-        //工人完成工作后倒计时次数减一
+        //宸ヤ汉瀹屾垚宸ヤ綔鍚庡�掕鏃舵鏁板噺涓�
         countDownLatch.countDown();
     }
 }

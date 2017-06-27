@@ -10,44 +10,44 @@ public class HexConversion {
 
     public static void main(String[] args) {
         int num = 20;
-        //Ê®½øÖÆ×ª³ÉÊ®Áù½øÖÆ£º
+        //åè¿›åˆ¶è½¬æˆåå…­è¿›åˆ¶ï¼š
         Integer.toHexString(num);
         System.out.println(Integer.toHexString(num));
-        //Ê®½øÖÆ×ª³É°Ë½øÖÆ
+        //åè¿›åˆ¶è½¬æˆå…«è¿›åˆ¶
         Integer.toOctalString(num);
         System.out.println(Integer.toOctalString(num));
-        //Ê®½øÖÆ×ª³É¶ş½øÖÆ
+        //åè¿›åˆ¶è½¬æˆäºŒè¿›åˆ¶
         Integer.toBinaryString(num);
         System.out.println(Integer.toBinaryString(num));
 
-        //Ê®Áù½øÖÆ×ª³ÉÊ®½øÖÆ
+        //åå…­è¿›åˆ¶è½¬æˆåè¿›åˆ¶
         Integer.valueOf("FFFF",16).toString();
         System.out.println(Integer.valueOf("FFFF",16).toString());
-        //Ê®Áù½øÖÆ×ª³É¶ş½øÖÆ
+        //åå…­è¿›åˆ¶è½¬æˆäºŒè¿›åˆ¶
         Integer.toBinaryString(Integer.valueOf("FFFF",16));
         System.out.println(Integer.toBinaryString(Integer.valueOf("FFFF",16)));
-        //Ê®Áù½øÖÆ×ª³É°Ë½øÖÆ
+        //åå…­è¿›åˆ¶è½¬æˆå…«è¿›åˆ¶
         Integer.toOctalString(Integer.valueOf("FFFF",16));
         System.out.println(Integer.toOctalString(Integer.valueOf("FFFF",16)));
 
-        //°Ë½øÖÆ×ª³ÉÊ®½øÖÆ
+        //å…«è¿›åˆ¶è½¬æˆåè¿›åˆ¶
         Integer.valueOf("576",8).toString();
         System.out.println(Integer.valueOf("576",8).toString());
-        //°Ë½øÖÆ×ª³É¶ş½øÖÆ
+        //å…«è¿›åˆ¶è½¬æˆäºŒè¿›åˆ¶
         Integer.toBinaryString(Integer.valueOf("23",8));
         System.out.println(Integer.toBinaryString(Integer.valueOf("23",8)));
-        //°Ë½øÖÆ×ª³ÉÊ®Áù½øÖÆ
+        //å…«è¿›åˆ¶è½¬æˆåå…­è¿›åˆ¶
         Integer.toHexString(Integer.valueOf("23",8));
         System.out.println(Integer.toHexString(Integer.valueOf("23",8)));
 
 
-        //¶ş½øÖÆ×ªÊ®½øÖÆ
+        //äºŒè¿›åˆ¶è½¬åè¿›åˆ¶
         Integer.valueOf("0101",2).toString();
         System.out.println(Integer.valueOf("0101",2).toString());
-        //¶ş½øÖÆ×ª°Ë½øÖÆ
+        //äºŒè¿›åˆ¶è½¬å…«è¿›åˆ¶
         Integer.toOctalString(Integer.parseInt("0101", 2));
         System.out.println(Integer.toOctalString(Integer.parseInt("0101", 2)));
-        //¶ş½øÖÆ×ªÊ®Áù½øÖÆ
+        //äºŒè¿›åˆ¶è½¬åå…­è¿›åˆ¶
         Integer.toHexString(Integer.parseInt("0101", 2));
         System.out.println(Integer.toHexString(Integer.parseInt("0101", 2)));
     }

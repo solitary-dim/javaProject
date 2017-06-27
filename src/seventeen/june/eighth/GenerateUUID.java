@@ -11,9 +11,9 @@ import java.util.UUID;
 public class GenerateUUID {
 
     /*
-     GUIDÊÇÒ»¸ö128Î»³¤µÄÊý×Ö£¬Ò»°ãÓÃ16½øÖÆ±íÊ¾¡£
-     Ëã·¨µÄºËÐÄË¼ÏëÊÇ½áºÏ»úÆ÷µÄÍø¿¨¡¢µ±µØÊ±¼ä¡¢Ò»¸öËæ¼´ÊýÀ´Éú³ÉGUID¡£
-     ´ÓÀíÂÛÉÏ½²£¬Èç¹ûÒ»Ì¨»úÆ÷Ã¿Ãë²úÉú10000000¸öGUID£¬Ôò¿ÉÒÔ±£Ö¤£¨¸ÅÂÊÒâÒåÉÏ£©3240Äê²»ÖØ¸´¡£
+     GUIDæ˜¯ä¸€ä¸ª128ä½é•¿çš„æ•°å­—ï¼Œä¸€èˆ¬ç”¨16è¿›åˆ¶è¡¨ç¤ºã€‚
+     ç®—æ³•çš„æ ¸å¿ƒæ€æƒ³æ˜¯ç»“åˆæœºå™¨çš„ç½‘å¡ã€å½“åœ°æ—¶é—´ã€ä¸€ä¸ªéšå³æ•°æ¥ç”ŸæˆGUIDã€‚
+     ä»Žç†è®ºä¸Šè®²ï¼Œå¦‚æžœä¸€å°æœºå™¨æ¯ç§’äº§ç”Ÿ10000000ä¸ªGUIDï¼Œåˆ™å¯ä»¥ä¿è¯ï¼ˆæ¦‚çŽ‡æ„ä¹‰ä¸Šï¼‰3240å¹´ä¸é‡å¤ã€‚
      */
 
     public static void main(String[] args) {

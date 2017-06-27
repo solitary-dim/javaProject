@@ -9,8 +9,8 @@ import java.util.concurrent.CountDownLatch;
  * Date: 2017/6/8
  * Time: 13:24
  *
- * CountDownLatchÊÇÒ»ÖÖ¼òµ¥µÄÍ¬²½Ä£Ê½
- * ËüÈÃÒ»¸öÏß³Ì¿ÉÒÔµÈ´ıÒ»¸ö»ò¶à¸öÏß³ÌÍê³ÉËüÃÇµÄ¹¤×÷´Ó¶ø±ÜÃâ¶ÔÁÙ½ç×ÊÔ´²¢·¢·ÃÎÊËùÒı·¢µÄ¸÷ÖÖÎÊÌâ¡£
+ * CountDownLatchæ˜¯ä¸€ç§ç®€å•çš„åŒæ­¥æ¨¡å¼
+ * å®ƒè®©ä¸€ä¸ªçº¿ç¨‹å¯ä»¥ç­‰å¾…ä¸€ä¸ªæˆ–å¤šä¸ªçº¿ç¨‹å®Œæˆå®ƒä»¬çš„å·¥ä½œä»è€Œé¿å…å¯¹ä¸´ç•Œèµ„æºå¹¶å‘è®¿é—®æ‰€å¼•å‘çš„å„ç§é—®é¢˜ã€‚
  */
 public class CountDownLatchTest {
 
@@ -25,7 +25,7 @@ public class CountDownLatchTest {
         int num = 10;
         CountDownLatch latch = new CountDownLatch(num);
         for (int i=0;i<num;i++) {
-            Worker worker = new Worker("¹¤ÈË" + i, getRandomWorkTime(MIN_WORK_TIME, MAX_WORK_TIME));
+            Worker worker = new Worker("å·¥äºº" + i, getRandomWorkTime(MIN_WORK_TIME, MAX_WORK_TIME));
             new Thread(new WorkerTestThread(worker, latch)).start();
         }
         try {

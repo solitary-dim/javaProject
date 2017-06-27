@@ -6,13 +6,13 @@ package seventeen.june.eighth.countDownLatch;
  * Date: 2017/6/8
  * Time: 13:18
  *
- * ¹¤ÈË
+ * å·¥äºº
  */
 public class Worker {
 
-    //ĞÕÃû
+    //å§“å
     private String name;
-    //¹¤×÷Ê±¼ä
+    //å·¥ä½œæ—¶é—´
     private Long time;
 
     public Worker(String name, Long time) {
@@ -20,12 +20,12 @@ public class Worker {
         this.time = time;
     }
 
-    //¹¤×÷
+    //å·¥ä½œ
     public void doWork() {
         Long startTime = System.currentTimeMillis();
         System.out.println(startTime + ": " + name + "begin to work");
         try {
-            //ÔİÍ£Ïß³Ì£¬ÓÃÀ´±íÊ¾¸Ã¹¤ÈË´¦ÓÚ¹¤×÷×´Ì¬
+            //æš‚åœçº¿ç¨‹ï¼Œç”¨æ¥è¡¨ç¤ºè¯¥å·¥äººå¤„äºå·¥ä½œçŠ¶æ€
             Thread.sleep(time);
         } catch (InterruptedException e) {
             e.printStackTrace();

@@ -108,7 +108,6 @@ public class RemoveAllFunctionTest {
 
     //String array remove all
     private void arrayListRemoveAll() {
-        String[] a = {"zhang","wang","li","wu","han"};
-        String[] b = {"zhang,math,88", "zhang,chinese,89", "zhang,english,90", "wu,math,99", "wu,english,66", "tang,math,77"};
+        //org.apache.commons.lang3.ArrayUtils can implement this function
     }
 }

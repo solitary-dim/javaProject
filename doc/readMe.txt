@@ -1,0 +1,1 @@
+add tomcat dependence can resolve the errors in InitLog4JServlet.java before compiling
